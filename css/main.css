@@ -2,9 +2,11 @@
     margin: 0;
     padding: 0;
     text-align: center;
-    padding-top: 20px;
 }
 
-img {
-    padding-top: 100px;
+.intro {
+    background: url(../img/bg/background_intro.png) no-repeat;
+    background-size: 100%;
+    min-width: 1920px;
+    min-height: 1080px;
 }
