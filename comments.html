@@ -2,10 +2,169 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>Отзывы</title>
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
+    <div class="wrapper">
 
+        <!-- header -->
+        <header class="header">
+            <div class="container">
+                <img src="img/logo/logo_fig.png" alt="" class="logo">
+                <div class="contacts">
+                    <a href="tel:88000039210" class="contacts__phone">8(800) 00-392-10</a><br>
+                    <a href="#" class="contacts__schedule">График работы</a>
+                </div>
+            </div>
+        </header>
+        <section class="page">
+            <div class="container">
+
+                <!-- menu -->
+                <aside class="sidebar">
+                    <nav class="menu">
+                        <ul class="nav-menu">
+                            <li class="nav-menu__item">
+                                <a href="workadium.html" class="nav-menu__link">
+                                    <div class="nav-menu__icon nav-menu__icon-main"></div>
+                                    <div class="nav-menu__text">Главная</div>
+                                </a>
+                            </li>
+                            <li class="nav-menu__item">
+                                <a href="" class="nav-menu__link">
+                                    <div class="nav-menu__icon nav-menu__icon-wallet"></div>
+                                    <div class="nav-menu__text">Тарифы</div>
+                                </a>
+                            </li>
+                            <li class="nav-menu__item">
+                                <a href="comments.html" class="nav-menu__link">
+                                    <div class="nav-menu__icon nav-menu__icon-feed activ"></div>
+                                    <div class="nav-menu__text activ">Отзывы</div>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </aside>
+
+                <!-- main-page-content -->
+                <main class="main-content">
+                    <div class="main-content__other">
+                        <ul class="main-content__nav">
+                            <li class="main-content__list">
+                                <a href="workadium.html" class="main-content__link activ">Главная</a>
+                            </li>
+                            <li class="main-content__list">
+                                <a href="comments.html" class="main-content__link">/ Отзывы</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="main-content__user">
+                        <h1 class="main-content__main">Отзывы</h1>
+                        <ul class="main-content__user-nav">
+                            <li class="main-content__user-list">
+                                <div class="main-content__pic">
+                                    <img src="img/feeds/user_1.jpg" alt="">
+                                    <div class="main-content__text">
+                                        <time datetime="2016-10-12">12.10.2016</time>
+                                        <p class="user-name">Олег Павлов</p>
+                                        <p class="text">Пользуемся услугами коворкинга стабильно раз в неделю, когда проводим совещания директоров. Получается намного дешевле и удобно всем добираться. Единственное пожелание – расширить меню, потому что бизнес-ланчи – это все таки средний уровень, а хочется чего то более вкусного, чтобы можно было угощать начальство.</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="main-content__user-list">
+                                <div class="main-content__pic">
+                                    <img src="img/feeds/user_2.jpg" alt="">
+                                    <div class="main-content__text">
+                                        <time datetime="2016-02-01">01.02.2016</time>
+                                        <p class="user-name">Олег Павлов</p>
+                                        <p class="text">Я фрилансер, программист, работать дома не могу, так как мешают дети. Здесь нашел то, что давно искал – тишину и спокойствие. Эффективность работы выросла, как и гонорары. Очень удобно, что коворкинг находится недалеко от метро. Стабильный интернет, чистота и порядок вокруг, никто не мешает. Цены сначала показались высокими, но учитывая полученные преимущества, все отлично!</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="main-content__user-list">
+                                <div class="main-content__pic">
+                                    <img src="img/feeds/user_no.png" alt="">
+                                    <div class="main-content__text">
+                                        <time datetime="2015-12-22">22.12.2015</time>
+                                        <p class="user-name">Олег Павлов</p>
+                                        <p class="text">Захожу сюда не часто, так как не мой район, но когда бываю в центре, то периодически нужно место для плодотворной работы. Интернет-клубы не подходят, так как не обеспечивают такой уровень сервиса, как Воркадиум. Здесь я нахожу вдохновение и могу выделить время для творчества. Желаю Воркадиуму процветания и развития. Если будете открывать филиалы, обратите внимание на Алексеевский район, я буду вашим постоянным клиентом :)</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="main-content__user-list">
+                                <div class="main-content__pic">
+                                    <img src="img/feeds/user_3.jpg" alt="">
+                                    <div class="main-content__text">
+                                        <time datetime="2015-08-14">14.08.2015</time>
+                                        <p class="user-name">Олег Павлов</p>
+                                        <p class="text">Провожу здесь встречи с клиентами в неформальной обстановке. Удобно, что при необходимости все под рукой – и ксерокс, и принтер и магазин канцелярии. Заключаю здесь свои лучшие договора. Единственное пожелание – сделайте еще несколько переговорных комнат на 10-15 человек, а то они пользуются большим спросом и не всегда есть возможность забронировать.</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <form class="form" action="" method="get">
+                        <h2 class="form-review">Оставить отзыв</h2>
+                        <div class="form-input">
+                            <div class="form-name">
+                                <label>Ваше имя<input class="input" type="text" name="name" value="" placeholder="Андрей" required=""></label>
+                            </div>
+                            <div class="form-link">
+                                <label>Ссылка на профиль VK<input class="input" type="text" name="link" value="" placeholder="vk.com/example" required=""></label>
+                            </div>
+                        </div>
+
+
+                        <label>Текст отзыва<textarea name="" id="" cols="30" rows="10" placeholder="Мне понравилось" required=""></textarea></label>
+                        <div class="form-foto">
+                            <span>Отображать фото в отзыве?</span>
+                            <label><input type="radio" name="photo" value="1" checked=""><span class="label_radio">Да</span></label>
+                            <label><input type="radio" name="photo" value="0"><span class="label_radio">Нет</span></label>
+
+                        </div>
+
+                        <button class="form-button" type="submit">Отправить</button>
+                    </form>
+                </main>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-left">
+                    Сделанно с любовью и старанием<br>
+                    на курсе "HTML + CSS" в
+                    <a href="https://loftschool.com/" class="footer-left__link">LoftSchool.</a><br>
+                    Автор работы: <strong class="footer-left__autor">Нечетов Евгений</strong>
+                </div>
+                <div class="footer-logo">
+                    <a href="" class="footer-logo__link">
+                        <img src="img/logo/logo_fig.png" alt="" class="logo">
+                    </a>
+                </div>
+                <div class="footer-right">
+                    <h3 class="footer-right__social">Наши социальные сети</h3>
+                    <ul class="footer-right__menu">
+                        <li class="footer-right__link">
+                            <img src="img/icons/vk.png" alt="">
+                        </li>
+                        <li class="footer-right__link">
+                            <img src="img/icons/facebook.png" alt="">
+                        </li>
+                        <li class="footer-right__link">
+                            <img src="img/icons/google.png" alt="">
+                        </li>
+                        <li class="footer-right__link">
+                            <img src="img/icons/twitter.png" alt="">
+                        </li>
+                        <li class="footer-right__link">
+                            <img src="img/icons/mail.png" alt="">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+
+    </div>
 </body>
 </html>
