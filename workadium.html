@@ -9,17 +9,21 @@
     <div class="wrapper">
 
         <!-- header -->
-        <header class="header clearfix">
-            <div class="container">
-                <img src="img/logo/logo_fig.png" alt="" class="logo">
-                <div class="contacts">
-                    <a href="tel:88000039210" class="contacts__phone">8(800) 00-392-10</a><br>
-                    <a href="#" class="contacts__schedule">График работы</a>
+        <header class="header">
+            <div class="container clearfix">
+                <div class="header-logo">
+                    <a class="header-link" href="workadium.html">
+                        <img class="header-image" src="img/logo/logo_fig.png" alt="">
+                    </a>
+                </div>
+                <div class="header-contacts">
+                    <a href="tel:88000039210" class="header__phone">8(800) 00-392-10</a>
+                    <a href="#" class="header__schedule">График работы</a>
                 </div>
             </div>
         </header>
-        <section class="page clearfix">
-            <div class="container">
+        <section class="page">
+            <div class="container clearfix">
 
                 <!-- menu -->
                 <aside class="sidebar">
@@ -49,9 +53,9 @@
 
                 <!-- main-page-content -->
                 <main class="main-content">
-                    <div class="page-image page--luminosity page--before"></div>
-                    <div class="page-image__text">
-                        <h1>О компании</h1>
+                    <div class="page-image">
+                        <div class="page-image__backgraund page-image__luminosity page-image__before"></div>
+                        <h1 class="page-image__text">О компании</h1>
                     </div>
                     <div class="page-text">
                         <p class="page-text__work">
@@ -93,6 +97,8 @@
                         <div class="description">
                             Для наших новых клиентов мы предлагаем <span class="description__pink-text">скидку 50%</span> на первый день! Приходите, чтобы лично оценить преимущества коворкинга «Воркадиум»!
                         </div>
+
+                        <!--***partners***-->
                         <div class="partners">
                             <h2 class="partners__title">Партнеры</h2>
                             <ul class="partners__list">
@@ -132,13 +138,13 @@
                 </main>
             </div>
         </section>
-        <footer class="footer clerfix">
-            <div class="container">
+        <footer class="footer">
+            <div class="container clearfix">
                 <div class="footer-left">
-                    Сделанно с любовью и старанием<br>
-                    на курсе "HTML + CSS" в
-                    <a href="https://loftschool.com/" class="footer-left__link">LoftSchool.</a><br>
-                    Автор работы: <strong class="footer-left__autor">Нечетов Евгений</strong>
+                    <div class="footer-left_position">Сделанно с любовью и старанием</div>
+                    <div class="footer-left_position">на курсе "HTML + CSS" в
+                    <a href="https://loftschool.com/" class="footer-left__link">LoftSchool.</a></div>
+                    <div class="footer-left_position">Автор работы: <strong class="footer-left__autor">Нечетов Евгений</strong></div>
                 </div>
                 <div class="footer-logo">
                     <a href="" class="footer-logo__link">
@@ -146,7 +152,7 @@
                     </a>
                 </div> 
                 <div class="footer-right">
-                    <h3 class="footer-right__social">Наши социальные сети</h3>
+                    <div class="footer-right__social">Наши социальные сети</div>
                     <ul class="footer-right__menu">
                         <li class="footer-right__link">
                             <a href="" class="footer-social__link">
