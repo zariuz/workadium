@@ -127,10 +127,17 @@ body {
 }
 
 .header__schedule {
-  color: #5dd1f8;
+  color: #ec1e79;
   opacity: .7;
   font-weight: bold;
 }
+
+.header__schedule:hover {
+  color: #7faad4;
+  opacity: .7;
+  font-weight: bold;
+}
+
 
 /***main***/
 
@@ -264,11 +271,11 @@ body {
   position: relative;
   width: 878px;
   height: 354px;
-  background: url('../img/bg/bg1.jpg');
+  background: url('../img/bg/bg1-blue.jpg');
   transition: all .5s;
 }
 
-.page-image__backgraund:before {
+/*.page-image__backgraund:before {
   content: '';
   display: block;      
   position: absolute;
@@ -288,7 +295,7 @@ body {
 
 .page-image__before:hover:before {
   opacity: 1;
-  }
+  }*/
 
 .page-text {
   width: 700px;
@@ -660,7 +667,7 @@ body {
 
 .form__row {
     width: 100%;
-    margin-bottom: 8px;
+    margin-bottom: 12px;
 }
 
 .form__cell {
@@ -672,7 +679,7 @@ body {
 }
 
 .form__title-text {
-    margin-bottom: 8px;
+    margin-bottom: 7px;
 }
 
 .form__input {
@@ -690,12 +697,12 @@ body {
 
 .form__label-textarea {
     display: inline-block;
-    padding-top: 4px;
+    padding-top: 6px;
 }
 
 .form__comment {
     width: 550px;
-    height: 90px;
+    height: 80px;
     border-radius: 3px;
     font-size: 14px;
     resize: none;
@@ -722,16 +729,16 @@ body {
     float: left;
     width: 48%;
     text-align: right;
-    padding-top: 3px;
+    padding-top: 6px;
     padding-right: 2px;
 }
 
 .form__controls-title {
-    margin-bottom: 9px;
+    margin-bottom: 8px;
 }
 
 .form__radio{
-    padding-left: 2px;
+    padding-left: 1px;
 }
 
 .form__radio-btn {
@@ -791,20 +798,8 @@ body {
     font-size: 12px;
     font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: 1.7px;
+    letter-spacing: 3px;
     display: inline-block;
-}
-
-.btn__img_position {
-    margin-left: 10px;
-}
-
-.btn__img {
-    display: inline-block;
-    width: 15px;
-    height: 14px;
-    background-image: url("../img/icons/btn_img_white.png");
-    background-size: cover;
 }
 
 .form__btn:hover {
@@ -812,11 +807,6 @@ body {
     color: #ec1e79;
     cursor: pointer;
 }
-
-.form__btn:hover .btn__img {
-    background-image: url("../img/icons/btn_img_blue.png");
-}
-
 
 /****prices.html****/
 
@@ -839,10 +829,11 @@ body {
 
 .main-content__rates {
   box-sizing: border-box;
+  margin-bottom: 33px;
 }
 
 .main-content__rates-image {
-  margin-bottom: 25px;
+  margin-bottom: 19px;
 }
 
 .main-content__rates-list {
@@ -850,10 +841,17 @@ body {
   display: inline-block;
   width: 250px;
   max-width: 250px;
-  margin-right: 35px;
-  margin-bottom: 45px;
+  margin-left: 5px;
+  margin-right: 49px;
+  margin-bottom: 40px;
   vertical-align: top;
   position: relative;
+}
+
+.main-content__rates-list:nth-child(3),
+.main-content__rates-list:nth-child(6) {
+  margin-right: 0px;
+  margin-left: -2px;
 }
 
 .main-content__rates-variant {
@@ -863,7 +861,7 @@ body {
   color: #5dd1f8;
   position: absolute;
   top: 61px;
-  left: 62px;
+  left: 73px;
   text-align: center;
   display: inline-block;
 }
@@ -873,11 +871,13 @@ body {
   font-weight: 700;
   font-size: 18px;
   line-height: 21px;
-  margin-bottom: 18px;
+  margin-bottom: 11px;
 }
 
 .main-content__rates-text {
   text-align: center;
+  font-size: 14px;
+  line-height: 21px;
 }
 
 .main-content__rates-red {
@@ -885,8 +885,13 @@ body {
   color: #ec1e79;
 }
 
-.main-content__rates-vip {
-  top: 30px;
+.main-content__rates-vipone {
+  top: 24px;
+  left: 39px;
+}
+
+.main-content__rates-viptwo {
+  top: 23px;
   left: 10px;
 }
 
