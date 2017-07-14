@@ -5,6 +5,7 @@
     <title>Тарифы</title>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
 </head>
 <body>
     <div class="wrapper">
@@ -13,13 +14,19 @@
         <header class="header">
             <div class="container clearfix">
                 <div class="header-logo">
-                    <a class="header-link" href="workadium.html">
-                        <img class="header-image" src="img/logo/logo_fig.png" alt="">
+                    <a class="header-logo__link" href="workadium.html">
+                        <img class="header-logo__image" src="img/logo/logo_fig.png" alt="">
                     </a>
                 </div>
                 <div class="header-contacts">
-                    <a href="tel:88000039210" class="header__phone">8 (800) 00-392-10</a>
-                    <a href="#" class="header__schedule">График работы</a>
+                    <a href="tel:88000039210" class="header-contacts__phone">8 (800) 00-392-10</a>
+                    <div class="header-contacts__box">
+                        <a href="#" class="header-contacts__schedule">График работы</a>
+                        <div class="header-contacts__dropdown">
+                            <div class="header-contacts__time">пн-вс: 09:00-20:00</div>
+                            <div class="header-contacts__dinner">обед: 14:00-14:30</div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </header>
@@ -34,19 +41,19 @@
                         <ul class="nav-menu">
                             <li class="nav-menu__item">
                                 <a href="workadium.html" class="nav-menu__link">
-                                    <div class="nav-menu__icon nav-menu__icon-main"></div>
+                                    <div class="nav-menu__sprite nav-menu__icon nav-menu__icon-main"></div>
                                     <div class="nav-menu__text">Главная</div>
                                 </a>
                             </li>
                             <li class="nav-menu__item">
-                                <a href="prices.html" class="nav-menu__link">
-                                    <div class="nav-menu__icon nav-menu__icon-wallet activ"></div>
-                                    <div class="nav-menu__text activ">Тарифы</div>
+                                <a href="prices.html" class="nav-menu__link-activ">
+                                    <div class="nav-menu__sprite nav-menu__icon nav-menu__icon-wallet"></div>
+                                    <div class="nav-menu__text">Тарифы</div>
                                 </a>
                             </li>
                             <li class="nav-menu__item">
                                 <a href="comments.html" class="nav-menu__link">
-                                    <div class="nav-menu__icon nav-menu__icon-feed"></div>
+                                    <div class="nav-menu__sprite nav-menu__icon nav-menu__icon-feed"></div>
                                     <div class="nav-menu__text">Отзывы</div>
                                 </a>
                             </li>
@@ -59,61 +66,61 @@
                     <div class="main-content__other prices">
                         <ul class="main-content__nav">
                             <li class="main-content__list">
-                                <a href="workadium.html" class="main-content__link activ">Главная</a>
+                                <a href="workadium.html" class="main-content__link main-content__link-activ">Главная</a>
                             </li>
                             <li class="main-content__list">
-                                <a href="prices.html" class="main-content__link">/ Тарифы</a>
+                                <a href="#" class="main-content__link main-content__link-passiv">/ Тарифы</a>
                             </li>
                         </ul>
                     </div>
                     <div class="main-content__rates">
                         <h1 class="main-content__reviews">Тарифы</h1>
                         <ul class="main-content__rates-menu">
-                            <li class="main-content__rates-list one">
+                            <li class="main-content__rates-list">
                                 <div class="main-content__rates-image">
                                     <img src="img/bg/prices-1.jpg" alt="" class="main-content__rates-pic">
+                                    <h2 class="main-content__rates-variant">«Один»</h2>
                                 </div>
-                                <h2 class="main-content__rates-variant one">«Один»</h2>
                                 <h3 class="main-content__rates-caption">800 руб/мес<br> или 100 руб/сутки</h3>
                                 <p class="main-content__rates-text">Оплачивается рабочее место на 1 человека. Есть возможность оплаты с привязкой к определенному физическому месту. При оплате за год, скидка 30%.</p>
                             </li>
                             <li class="main-content__rates-list">
                                 <div class="main-content__rates-image">
                                     <img src="img/bg/prices-2.jpg" alt="" class="main-content__rates-pic">
-                                </div>
-                                <h2 class="main-content__rates-variant">«Трое»</h2>
+                                    <h2 class="main-content__rates-variant">«Трое»</h2>
+                                </div>                              
                                 <h3 class="main-content__rates-caption">1 500 руб/мес<br> или 200 руб/сутки</h3>
                                 <p class="main-content__rates-text">Оплачивается стол на 3 рабочих места. При этом можно ими пользоваться как одновременно, так и поочередно. Можно пользоваться офисной техникой и выделенным шкафом для документов.</p>
                             </li>
                             <li class="main-content__rates-list">
                                 <div class="main-content__rates-image">
                                     <img src="img/bg/prices-3.jpg" alt="" class="main-content__rates-pic">
+                                    <h2 class="main-content__rates-variant">«10-10»</h2>
                                 </div>
-                                <h2 class="main-content__rates-variant">«10-10»</h2>
                                 <h3 class="main-content__rates-caption">10 000 руб/мес</h3>
                                 <p class="main-content__rates-text">Оплачивается 10 рабочих мест на любые 10 дней месяца. Отлично подходит для периодической работы команды сотрудников без строгой привязки к рабочему месту. При оплате на год вперед скидка 25%</p>
                             </li>
                             <li class="main-content__rates-list">
                                 <div class="main-content__rates-image">
                                     <img src="img/bg/prices-4.jpg" alt="" class="main-content__rates-pic">
-                                </div>
-                                <h2 class="main-content__rates-variant main-content__rates-vipone"><span class="main-content__rates-red">Vip</span>«Безлимит<br> на одного»</h2>
+                                    <h2 class="main-content__rates-variant main-content__rates-vipone"><span class="main-content__rates-red">Vip</span>«Безлимит<br> на одного»</h2>
+                                </div>                       
                                 <h3 class="main-content__rates-caption">2 500 руб/мес</h3>
                                 <p class="main-content__rates-text">В стоимость включена не только оплата рабочего места, но и пользование копировальной техникой, бесплатный кофе или чай в течение дня, возможность использования зала для переговоров при предварительном бронировании 1 раз в месяц.</p>
                             </li>
                             <li class="main-content__rates-list">
                                 <div class="main-content__rates-image">
                                     <img src="img/bg/prices-5.jpg" alt="" class="main-content__rates-pic">
-                                </div>
-                                <h2 class="main-content__rates-variant main-content__rates-viptwo"><span class="main-content__rates-red">Vip</span>«Все включено»</h2>
+                                    <h2 class="main-content__rates-variant main-content__rates-viptwo"><span class="main-content__rates-red">Vip</span>«Все включено»</h2>
+                                </div>                                
                                 <h3 class="main-content__rates-caption">Цена рассчитывается индивидуально</h3>
                                 <p class="main-content__rates-text">Оплачивается необходимое число рабочих мест с привязкой к фактическому местонахождению. В стоимость включены рабочие столы, мебель для хранения документов, отдельный принтер и копировальный автомат.</p>
                             </li>
                             <li class="main-content__rates-list">
                                 <div class="main-content__rates-image">
                                     <img src="img/bg/prices-6.jpg" alt="" class="main-content__rates-pic">
-                                </div>
-                                <h2 class="main-content__rates-variant main-content__rates-conversation">«Переговоры»</h2>
+                                    <h2 class="main-content__rates-variant main-content__rates-conversation">«Переговоры»</h2>
+                                </div>                            
                                 <h3 class="main-content__rates-caption">900 руб/час</h3>
                                 <p class="main-content__rates-text">Есть возможность раннего бронирования конференц-залов со скидкой до 30% при полной предоплате.</p>
                             </li>
@@ -125,6 +132,7 @@
         </section>
 
         <!--footer-->
+
         <footer class="footer">
             <div class="container clearfix">
                 <div class="footer-left">
@@ -135,35 +143,35 @@
                 </div>
                 <div class="footer-logo">
                     <a href="" class="footer-logo__link">
-                        <img src="img/logo/logo_fig.png" alt="" class="logo">
+                        <img src="img/logo/logo_fig.png" alt="" class="footer-logo__image">
                     </a>
                 </div> 
                 <div class="footer-right">
                     <div class="footer-right__social">Наши социальные сети</div>
                     <ul class="footer-right__menu">
-                        <li class="footer-right__link">
-                            <a href="" class="footer-social__link">
-                                <div class="footer-social__icon footer-right__vk"></div>
+                        <li class="footer-right__item">
+                            <a href="" class="footer-right__link">
+                                <div class="footer-right__sprite footer-right__vk"></div>
                             </a>
                         </li>
-                        <li class="footer-right__link">
-                            <a href="" class="footer-social__link">
-                                <div class="footer-social__icon footer-right__facebook"></div>
+                        <li class="footer-right__item">
+                            <a href="" class="footer-right__link">
+                                <div class="footer-right__sprite footer-right__facebook"></div>
                             </a>
                         </li>
-                        <li class="footer-right__link">
-                            <a href="" class="footer-social__link">
-                                <div  class="footer-social__icon footer-right__google"></div>
+                        <li class="footer-right__item">
+                            <a href="" class="footer-right__link">
+                                <div  class="footer-right__sprite footer-right__google"></div>
                             </a>
                         </li>
-                        <li class="footer-right__link">
-                            <a href="" class="footer-social__link">
-                                <div class="footer-social__icon footer-right__twitter"></div>
+                        <li class="footer-right__item">
+                            <a href="" class="footer-right__link">
+                                <div class="footer-right__sprite footer-right__twitter"></div>
                             </a>
                         </li>
-                        <li class="footer-right__link">
-                            <a href="" class="footer-social__link">
-                                <div class="footer-social__icon footer-right__mail"></div>
+                        <li class="footer-right__item">
+                            <a href="" class="footer-right__link">
+                                <div class="footer-right__sprite footer-right__mail"></div>
                             </a>
                         </li>
                     </ul>
